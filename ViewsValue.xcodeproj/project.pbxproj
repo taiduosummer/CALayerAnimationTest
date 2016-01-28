@@ -24,6 +24,7 @@
 		D44DBDAB1C537B5D003DC32A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D44DBDAD1C537B5D003DC32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D44DBDB31C537C4D003DC32A /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D4D186051C5A11D100A3EC2D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		D44DBD951C537B5D003DC32A = {
 			isa = PBXGroup;
 			children = (
+				D4D186051C5A11D100A3EC2D /* MyPlayground.playground */,
 				D44DBDA01C537B5D003DC32A /* ViewsValue */,
 				D44DBD9F1C537B5D003DC32A /* Products */,
 			);
@@ -290,6 +292,7 @@
 				D44DBDB21C537B5D003DC32A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
