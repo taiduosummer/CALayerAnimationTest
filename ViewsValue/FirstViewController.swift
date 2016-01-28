@@ -17,6 +17,7 @@ class FirstViewController: UIViewController {
         title = "First"
         view.backgroundColor = UIColor.whiteColor()
         // Do any additional setup after loading the view.
+        textName?.text = nameStr
         print(nameStr)
     }
     

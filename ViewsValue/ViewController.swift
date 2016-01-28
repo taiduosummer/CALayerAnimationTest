@@ -23,15 +23,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func goNextVC(){
+        
 //        navigationController?.pushViewController(FirstViewController(), animated: true)
         performSegueWithIdentifier("kFistVC", sender: self)
     }
 
-    override func performSegueWithIdentifier(identifier: String, sender: AnyObject?) {
-        print(identifier)
-        if identifier == "kFistVC" {
-            var firstVController = sender!.destinationViewController as! FirstViewController
-            
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        print(segue.identifier)
+        if segue.identifier == "kFistVC" {
+            var firstVController = segue.destinationViewController as! FirstViewController
+    
             firstVController.nameStr = "789"
         }
     }
