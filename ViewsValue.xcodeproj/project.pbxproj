@@ -24,6 +24,7 @@
 		D44DBDAB1C537B5D003DC32A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D44DBDAD1C537B5D003DC32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D44DBDB31C537C4D003DC32A /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D4558A061C5B44C500DF266E /* MyPlayground1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground1.playground; sourceTree = "<group>"; };
 		D4D186051C5A11D100A3EC2D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				D44DBDA11C537B5D003DC32A /* AppDelegate.swift */,
+				D4558A061C5B44C500DF266E /* MyPlayground1.playground */,
 				D44DBDA31C537B5D003DC32A /* ViewController.swift */,
 				D44DBDB31C537C4D003DC32A /* FirstViewController.swift */,
 				D44DBDA51C537B5D003DC32A /* Main.storyboard */,

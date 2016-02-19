@@ -33,7 +33,6 @@ extension String{
 
 let phoneOK = String.filterPhone(name1)
 
-
 struct Point {
     var x = 0.0, y = 0.0
 }
