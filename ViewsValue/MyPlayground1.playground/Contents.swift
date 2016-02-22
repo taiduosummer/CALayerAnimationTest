@@ -2,8 +2,6 @@
 
 import UIKit
 
-
-
 var str = "Hello, playground"
 struct AudioChannel {
     static let thresholdLevel = 10
