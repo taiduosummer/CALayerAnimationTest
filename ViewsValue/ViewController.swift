@@ -33,7 +33,6 @@ class ViewController: UIViewController {
         print(segue.identifier)
         if segue.identifier == "kFistVC" {
             var firstVController = segue.destinationViewController as! FirstViewController
-    
             firstVController.nameStr = "789"
         }
     }
