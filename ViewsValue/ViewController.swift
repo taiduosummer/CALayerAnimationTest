@@ -27,8 +27,6 @@ class ViewController: UIViewController {
         shapeLayer.lineJoin = kCALineJoinRound
         shapeLayer.path = pathBe.CGPath
         backVeiw.layer.addSublayer(shapeLayer)
-
-        
         
         let animaitonz = CABasicAnimation(keyPath: "transform.rotation.z")
         animaitonz.duration = 2
@@ -36,7 +34,6 @@ class ViewController: UIViewController {
         animaitonz.toValue = -M_PI*3/2
         backVeiw.layer.addAnimation(animaitonz, forKey: "rotaiton")
     
-        
         let animaitonEnd = CABasicAnimation(keyPath: "strokeEnd")
         animaitonEnd.fillMode = kCAFillModeForwards
         animaitonEnd.fromValue = 0.25
