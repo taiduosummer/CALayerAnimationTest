@@ -13,35 +13,9 @@
 		D44DBDA91C537B5D003DC32A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44DBDA81C537B5D003DC32A /* Assets.xcassets */; };
 		D44DBDAC1C537B5D003DC32A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44DBDAA1C537B5D003DC32A /* LaunchScreen.storyboard */; };
 		D44DBDB41C537C4D003DC32A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44DBDB31C537C4D003DC32A /* FirstViewController.swift */; };
-		D490843E1C7AE7A800DB16D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490842C1C7AE7A800DB16D7 /* AppDelegate.swift */; };
-		D490843F1C7AE7A800DB16D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D490842D1C7AE7A800DB16D7 /* Assets.xcassets */; };
-		D49084401C7AE7A800DB16D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D490842E1C7AE7A800DB16D7 /* LaunchScreen.storyboard */; };
-		D49084411C7AE7A800DB16D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49084301C7AE7A800DB16D7 /* Main.storyboard */; };
-		D49084421C7AE7A800DB16D7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49084321C7AE7A800DB16D7 /* Common.swift */; };
-		D49084431C7AE7A800DB16D7 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49084331C7AE7A800DB16D7 /* HealthManager.swift */; };
-		D49084441C7AE7A800DB16D7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D49084341C7AE7A800DB16D7 /* Info.plist */; };
-		D49084451C7AE7A800DB16D7 /* SwiftDemon.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = D49084361C7AE7A800DB16D7 /* SwiftDemon.entitlements */; };
-		D49084461C7AE7A800DB16D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49084371C7AE7A800DB16D7 /* ViewController.swift */; };
 		D4CC1C7B1C7AD69D00744102 /* SummerBaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CC1C7A1C7AD69D00744102 /* SummerBaseAnimation.swift */; };
 		D4CC1C7D1C7AE4CC00744102 /* SummerMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CC1C7C1C7AE4CC00744102 /* SummerMask.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D49084481C7AE7A800DB16D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D490843B1C7AE7A800DB16D7 /* SwiftDemon.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D46E41FA1C3F7EFC0096C189;
-			remoteInfo = SwiftDemon;
-		};
-		D490844B1C7AE7A800DB16D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D49084381C7AE7A800DB16D7 /* SwiftDemon.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D46E41FA1C3F7EFC0096C189;
-			remoteInfo = SwiftDemon;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D44DBD9E1C537B5D003DC32A /* ViewsValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewsValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,18 +28,7 @@
 		D44DBDB31C537C4D003DC32A /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		D4558A061C5B44C500DF266E /* MyPlayground1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground1.playground; sourceTree = "<group>"; };
 		D49084281C7AE7A800DB16D7 /* MyPlaygroundArrary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlaygroundArrary.playground; sourceTree = "<group>"; };
-		D490842C1C7AE7A800DB16D7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D490842D1C7AE7A800DB16D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D490842F1C7AE7A800DB16D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D49084311C7AE7A800DB16D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D49084321C7AE7A800DB16D7 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
-		D49084331C7AE7A800DB16D7 /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
-		D49084341C7AE7A800DB16D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D49084361C7AE7A800DB16D7 /* SwiftDemon.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SwiftDemon.entitlements; sourceTree = "<group>"; };
-		D49084371C7AE7A800DB16D7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D49084381C7AE7A800DB16D7 /* SwiftDemon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SwiftDemon.xcodeproj; sourceTree = "<group>"; };
-		D490843B1C7AE7A800DB16D7 /* SwiftDemon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SwiftDemon.xcodeproj; sourceTree = "<group>"; };
-		D490844D1C7AE82500DB16D7 /* MyPlaygroundArrary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlaygroundArrary.playground; sourceTree = "<group>"; };
+		D49084511C7B106C00DB16D7 /* ViewsValue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewsValue-Bridging-Header.h"; sourceTree = "<group>"; };
 		D4CC1C7A1C7AD69D00744102 /* SummerBaseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerBaseAnimation.swift; sourceTree = "<group>"; };
 		D4CC1C7C1C7AE4CC00744102 /* SummerMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerMask.swift; sourceTree = "<group>"; };
 		D4D186051C5A11D100A3EC2D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
@@ -113,52 +76,9 @@
 				D44DBDAA1C537B5D003DC32A /* LaunchScreen.storyboard */,
 				D44DBDAD1C537B5D003DC32A /* Info.plist */,
 				D49084281C7AE7A800DB16D7 /* MyPlaygroundArrary.playground */,
-				D49084291C7AE7A800DB16D7 /* SwiftDemon */,
-				D490843B1C7AE7A800DB16D7 /* SwiftDemon.xcodeproj */,
+				D49084511C7B106C00DB16D7 /* ViewsValue-Bridging-Header.h */,
 			);
 			path = ViewsValue;
-			sourceTree = "<group>";
-		};
-		D49084291C7AE7A800DB16D7 /* SwiftDemon */ = {
-			isa = PBXGroup;
-			children = (
-				D490842B1C7AE7A800DB16D7 /* SwiftDemon */,
-				D49084381C7AE7A800DB16D7 /* SwiftDemon.xcodeproj */,
-			);
-			path = SwiftDemon;
-			sourceTree = "<group>";
-		};
-		D490842B1C7AE7A800DB16D7 /* SwiftDemon */ = {
-			isa = PBXGroup;
-			children = (
-				D490844D1C7AE82500DB16D7 /* MyPlaygroundArrary.playground */,
-				D490842C1C7AE7A800DB16D7 /* AppDelegate.swift */,
-				D490842D1C7AE7A800DB16D7 /* Assets.xcassets */,
-				D490842E1C7AE7A800DB16D7 /* LaunchScreen.storyboard */,
-				D49084301C7AE7A800DB16D7 /* Main.storyboard */,
-				D49084321C7AE7A800DB16D7 /* Common.swift */,
-				D49084331C7AE7A800DB16D7 /* HealthManager.swift */,
-				D49084341C7AE7A800DB16D7 /* Info.plist */,
-				D49084361C7AE7A800DB16D7 /* SwiftDemon.entitlements */,
-				D49084371C7AE7A800DB16D7 /* ViewController.swift */,
-			);
-			path = SwiftDemon;
-			sourceTree = "<group>";
-		};
-		D49084391C7AE7A800DB16D7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D490844C1C7AE7A800DB16D7 /* SwiftDemon.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D490843C1C7AE7A800DB16D7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D49084491C7AE7A800DB16D7 /* SwiftDemon.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,16 +127,6 @@
 			mainGroup = D44DBD951C537B5D003DC32A;
 			productRefGroup = D44DBD9F1C537B5D003DC32A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D490843C1C7AE7A800DB16D7 /* Products */;
-					ProjectRef = D490843B1C7AE7A800DB16D7 /* SwiftDemon.xcodeproj */;
-				},
-				{
-					ProductGroup = D49084391C7AE7A800DB16D7 /* Products */;
-					ProjectRef = D49084381C7AE7A800DB16D7 /* SwiftDemon.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				D44DBD9D1C537B5D003DC32A /* ViewsValue */,
@@ -224,36 +134,14 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		D49084491C7AE7A800DB16D7 /* SwiftDemon.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwiftDemon.app;
-			remoteRef = D49084481C7AE7A800DB16D7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D490844C1C7AE7A800DB16D7 /* SwiftDemon.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwiftDemon.app;
-			remoteRef = D490844B1C7AE7A800DB16D7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		D44DBD9C1C537B5D003DC32A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D44DBDAC1C537B5D003DC32A /* LaunchScreen.storyboard in Resources */,
-				D49084451C7AE7A800DB16D7 /* SwiftDemon.entitlements in Resources */,
 				D44DBDA91C537B5D003DC32A /* Assets.xcassets in Resources */,
-				D490843F1C7AE7A800DB16D7 /* Assets.xcassets in Resources */,
-				D49084411C7AE7A800DB16D7 /* Main.storyboard in Resources */,
-				D49084401C7AE7A800DB16D7 /* LaunchScreen.storyboard in Resources */,
 				D44DBDA71C537B5D003DC32A /* Main.storyboard in Resources */,
-				D49084441C7AE7A800DB16D7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,15 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D490843E1C7AE7A800DB16D7 /* AppDelegate.swift in Sources */,
 				D4CC1C7B1C7AD69D00744102 /* SummerBaseAnimation.swift in Sources */,
 				D44DBDB41C537C4D003DC32A /* FirstViewController.swift in Sources */,
-				D49084461C7AE7A800DB16D7 /* ViewController.swift in Sources */,
 				D44DBDA41C537B5D003DC32A /* ViewController.swift in Sources */,
 				D4CC1C7D1C7AE4CC00744102 /* SummerMask.swift in Sources */,
 				D44DBDA21C537B5D003DC32A /* AppDelegate.swift in Sources */,
-				D49084421C7AE7A800DB16D7 /* Common.swift in Sources */,
-				D49084431C7AE7A800DB16D7 /* HealthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,22 +177,6 @@
 				D44DBDAB1C537B5D003DC32A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D490842E1C7AE7A800DB16D7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D490842F1C7AE7A800DB16D7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D49084301C7AE7A800DB16D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D49084311C7AE7A800DB16D7 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,11 +267,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ViewsValue/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ViewsValue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ViewsValue/ViewsValue-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -411,11 +282,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ViewsValue/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ViewsValue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ViewsValue/ViewsValue-Bridging-Header.h";
 			};
 			name = Release;
 		};
