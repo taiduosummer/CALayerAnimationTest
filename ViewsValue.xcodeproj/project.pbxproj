@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D44C7F4A1C7C44C600CFF8E1 /* SummerRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C7F491C7C44C600CFF8E1 /* SummerRotationAnimation.swift */; };
 		D44DBDA21C537B5D003DC32A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44DBDA11C537B5D003DC32A /* AppDelegate.swift */; };
 		D44DBDA41C537B5D003DC32A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44DBDA31C537B5D003DC32A /* ViewController.swift */; };
 		D44DBDA71C537B5D003DC32A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44DBDA51C537B5D003DC32A /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D44C7F491C7C44C600CFF8E1 /* SummerRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerRotationAnimation.swift; sourceTree = "<group>"; };
 		D44DBD9E1C537B5D003DC32A /* ViewsValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewsValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44DBDA11C537B5D003DC32A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44DBDA31C537B5D003DC32A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				D4CC1C7C1C7AE4CC00744102 /* SummerMask.swift */,
 				D44DBDB31C537C4D003DC32A /* FirstViewController.swift */,
 				D4CC1C7A1C7AD69D00744102 /* SummerBaseAnimation.swift */,
+				D44C7F491C7C44C600CFF8E1 /* SummerRotationAnimation.swift */,
 				D44DBDA51C537B5D003DC32A /* Main.storyboard */,
 				D44DBDA81C537B5D003DC32A /* Assets.xcassets */,
 				D44DBDAA1C537B5D003DC32A /* LaunchScreen.storyboard */,
@@ -157,6 +160,7 @@
 				D44DBDA41C537B5D003DC32A /* ViewController.swift in Sources */,
 				D4CC1C7D1C7AE4CC00744102 /* SummerMask.swift in Sources */,
 				D44DBDA21C537B5D003DC32A /* AppDelegate.swift in Sources */,
+				D44C7F4A1C7C44C600CFF8E1 /* SummerRotationAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

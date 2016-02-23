@@ -15,31 +15,47 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let backVeiw = UIView(frame: CGRectMake(100,300,200,200))
-        view.addSubview(backVeiw)
+        let viewMask = UIView(frame: CGRectMake(100,200,200,100))
+        //        viewMask.backgroundColor = UIColor.blueColor()
+        view.addSubview(viewMask)
         
-        let pathBe = UIBezierPath(arcCenter: CGPointMake(100, 100), radius: 80, startAngle: CGFloat(-M_PI/2), endAngle: CGFloat(-(2*M_PI + M_PI/2)), clockwise: false)
+        let leftLayer = CAGradientLayer()
+        leftLayer.frame = CGRectMake(0, 0, 100, 200)
+        leftLayer.colors = [UIColor.greenColor().CGColor,UIColor.blueColor().CGColor]
+        leftLayer.startPoint = CGPointMake(0, 1)
+        leftLayer.endPoint = CGPointMake(1, 0)
+        viewMask.layer.addSublayer(leftLayer)
         
-        let shapeLayer = CAShapeLayer()
-        shapeLayer.strokeColor = UIColor.redColor().CGColor
-        shapeLayer.lineDashPattern = [6,3]
-        shapeLayer.fillColor = UIColor.whiteColor().CGColor
-        shapeLayer.lineJoin = kCALineJoinRound
-        shapeLayer.path = pathBe.CGPath
-        backVeiw.layer.addSublayer(shapeLayer)
+        let rightLayer = CAGradientLayer()
+        rightLayer.frame = CGRectMake(100, 0, 100, 200)
+        rightLayer.colors = [UIColor.blueColor().CGColor,UIColor.redColor().CGColor]
+        rightLayer.startPoint = CGPointMake(0, 0)
+        rightLayer.endPoint = CGPointMake(1, 1)
+        viewMask.layer.addSublayer(rightLayer)
         
-        let animaitonz = CABasicAnimation(keyPath: "transform.rotation.z")
-        animaitonz.duration = 2
-        animaitonz.fromValue = 0
-        animaitonz.toValue = -M_PI*3/2
-        backVeiw.layer.addAnimation(animaitonz, forKey: "rotaiton")
-    
+        
+        let pathLayer = CAShapeLayer()
+        pathLayer.lineWidth = 10.0
+        pathLayer.lineJoin = kCALineJoinRound
+        pathLayer.lineCap = kCALineCapRound
+        
+        pathLayer.fillColor = UIColor.clearColor().CGColor
+        pathLayer.strokeColor = UIColor.whiteColor().CGColor
+        let pathBese = UIBezierPath(arcCenter: CGPointMake(100, 100), radius: 80, startAngle: CGFloat(M_PI*1.5/2), endAngle: CGFloat(2.25 * M_PI), clockwise: true)
+        pathLayer.path = pathBese.CGPath
+        viewMask.layer.mask = pathLayer
+//        viewMask.layer.masksToBounds = true
+        
+        pathLayer.strokeEnd = 1
+        pathLayer.strokeStart = 0
+        
         let animaitonEnd = CABasicAnimation(keyPath: "strokeEnd")
         animaitonEnd.fillMode = kCAFillModeForwards
-        animaitonEnd.fromValue = 0.25
+        animaitonEnd.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animaitonEnd.fromValue = 0
         animaitonEnd.toValue = 1
         animaitonEnd.duration = 2
-        shapeLayer.addAnimation(animaitonEnd, forKey: "end")
+        pathLayer.addAnimation(animaitonEnd, forKey: "end")
         
     }
     
@@ -49,7 +65,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func goNextVC(){
-        
+    
 //        navigationController?.pushViewController(FirstViewController(), animated: true)
         performSegueWithIdentifier("kFistVC", sender: self)
     }
