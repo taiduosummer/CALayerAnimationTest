@@ -15,23 +15,28 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let label = CALayer()
-        label.frame = CGRect(x: 100, y: 200, width: 30, height: 30)
-        label.backgroundColor = UIColor.redColor().CGColor
-        view.layer.addSublayer(label)
-    
+        var mortor = CAEmitterLayer()
+        mortor.emitterPosition = CGPoint(x: view.bounds.size.width/2, y: view.bounds.size.height*0.75)
+        mortor.renderMode = kCAEmitterLayerAdditive
+        mortor.birthRate = 4
         
-        let spring = CASpringAnimation(keyPath: "position.x")
-        spring.damping = 5;
-        spring.stiffness = 100;
-        spring.mass = 1;
-        spring.initialVelocity = 10;
-        spring.fromValue = label.position.x;
-        spring.toValue = label.position.x + 50;
-        spring.duration = spring.settlingDuration;
-        spring.fillMode = kCAFillModeForwards//1
-        spring.removedOnCompletion = false//2保持动画后状态
-        label.addAnimation(spring, forKey: spring.keyPath);
+        var rocket = CAEmitterCell()
+        rocket.contents = UIImage(named: "145371212570351525.jpg")?.CGImage
+        rocket.emissionLongitude = CGFloat(-M_PI/2)
+        rocket.emissionLatitude = 0
+        rocket.lifetime = 1.6
+        rocket.birthRate = 100
+        rocket.velocity = 400
+        rocket.velocityRange = 100
+        rocket.yAcceleration = 250
+        rocket.emissionRange = CGFloat(M_PI/4)
+        rocket.color = CGColorCreateCopy(UIColor(red: 0.5, green: 0.5, blue: 0.5, alpha: 0.5).CGColor)
+        rocket.redRange = 0.5
+        rocket.greenRange = 0.5
+        rocket.blueRange = 0.5
+        rocket.name = "rocket"
+        mortor.emitterCells = [rocket]
+        view.layer.addSublayer(mortor)
     }
     
     

@@ -14,6 +14,8 @@
 		D44DBDA91C537B5D003DC32A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44DBDA81C537B5D003DC32A /* Assets.xcassets */; };
 		D44DBDAC1C537B5D003DC32A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44DBDAA1C537B5D003DC32A /* LaunchScreen.storyboard */; };
 		D44DBDB41C537C4D003DC32A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44DBDB31C537C4D003DC32A /* FirstViewController.swift */; };
+		D4CA7EDB1C80565300DAB64D /* SummerSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CA7EDA1C80565300DAB64D /* SummerSpring.swift */; };
+		D4CA7EDD1C8057CA00DAB64D /* 145371212570351525.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4CA7EDC1C8057CA00DAB64D /* 145371212570351525.jpg */; };
 		D4CC1C7B1C7AD69D00744102 /* SummerBaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CC1C7A1C7AD69D00744102 /* SummerBaseAnimation.swift */; };
 		D4CC1C7D1C7AE4CC00744102 /* SummerMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CC1C7C1C7AE4CC00744102 /* SummerMask.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +33,8 @@
 		D4558A061C5B44C500DF266E /* MyPlayground1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground1.playground; sourceTree = "<group>"; };
 		D49084281C7AE7A800DB16D7 /* MyPlaygroundArrary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlaygroundArrary.playground; sourceTree = "<group>"; };
 		D49084511C7B106C00DB16D7 /* ViewsValue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewsValue-Bridging-Header.h"; sourceTree = "<group>"; };
+		D4CA7EDA1C80565300DAB64D /* SummerSpring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerSpring.swift; sourceTree = "<group>"; };
+		D4CA7EDC1C8057CA00DAB64D /* 145371212570351525.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 145371212570351525.jpg; sourceTree = "<group>"; };
 		D4CC1C7A1C7AD69D00744102 /* SummerBaseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerBaseAnimation.swift; sourceTree = "<group>"; };
 		D4CC1C7C1C7AE4CC00744102 /* SummerMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerMask.swift; sourceTree = "<group>"; };
 		D4D186051C5A11D100A3EC2D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
@@ -74,8 +78,10 @@
 				D44DBDB31C537C4D003DC32A /* FirstViewController.swift */,
 				D4CC1C7A1C7AD69D00744102 /* SummerBaseAnimation.swift */,
 				D44C7F491C7C44C600CFF8E1 /* SummerRotationAnimation.swift */,
+				D4CA7EDA1C80565300DAB64D /* SummerSpring.swift */,
 				D44DBDA51C537B5D003DC32A /* Main.storyboard */,
 				D44DBDA81C537B5D003DC32A /* Assets.xcassets */,
+				D4CA7EDC1C8057CA00DAB64D /* 145371212570351525.jpg */,
 				D44DBDAA1C537B5D003DC32A /* LaunchScreen.storyboard */,
 				D44DBDAD1C537B5D003DC32A /* Info.plist */,
 				D49084281C7AE7A800DB16D7 /* MyPlaygroundArrary.playground */,
@@ -142,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CA7EDD1C8057CA00DAB64D /* 145371212570351525.jpg in Resources */,
 				D44DBDAC1C537B5D003DC32A /* LaunchScreen.storyboard in Resources */,
 				D44DBDA91C537B5D003DC32A /* Assets.xcassets in Resources */,
 				D44DBDA71C537B5D003DC32A /* Main.storyboard in Resources */,
@@ -160,6 +167,7 @@
 				D44DBDA41C537B5D003DC32A /* ViewController.swift in Sources */,
 				D4CC1C7D1C7AE4CC00744102 /* SummerMask.swift in Sources */,
 				D44DBDA21C537B5D003DC32A /* AppDelegate.swift in Sources */,
+				D4CA7EDB1C80565300DAB64D /* SummerSpring.swift in Sources */,
 				D44C7F4A1C7C44C600CFF8E1 /* SummerRotationAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
